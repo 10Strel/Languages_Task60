@@ -99,7 +99,7 @@ int GetRandom()
 
     while (isExists)
     {
-        newNumber = random.Next(0, 100);
+        newNumber = random.Next(10, 100);
 
         isExists = existsNumbers.IndexOf(newNumber) > 0;
 
